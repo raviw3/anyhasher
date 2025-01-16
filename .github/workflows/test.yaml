@@ -7,5 +7,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - run: cd backend
-      - run: npm i
-      - run: npm run build
+      - run: cd backend && npm i
+      - run: cd backend && npm run build
